@@ -1,0 +1,29 @@
+# 共通
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+vendor/
+.env
+.DS_Store
+
+# バックエンド用（既存内容もOK）
+*.log
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+Homestead.json
+Homestead.yaml
+Thumbs.db
